@@ -19,3 +19,23 @@ It allow you to manager user and roles in a table format with the ability to **A
 Before you begin, ensure you have the following installed:
 * Node.js (v16.0.0 or higher)
 * npm (v8.0.0 or higher)
+
+###  Step 1: Clone the Repository
+https://github.com/RohitUJadhav/vrvAssignment.git
+cd vrvAssignment 
+
+### Step 2: Install Dependencies
+cd client  -> npm install
+cd server -> npm install
+
+### Step 3: Start Development Server
+cd client -> npm run dev
+cd server -> nodemon
+
+## Interacting with the Application
+* Initally create a role that can eventually be assigned to any User.
+* Adding Users: Click on the designated "Add User" button to add a new user.
+* Editing Users: Locate the "Edit" button next to a user's record in the table and click it to modify details, including their role.
+* Deleting Users: Click the corresponding "Delete" button to permanently remove a user.
+* Role Management: When adding  Role, you can assign a specific role. This helps to control the access and permissions for each user.
+
