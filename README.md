@@ -31,6 +31,7 @@ cd server -> npm install
 
 ### Step 3: Start Development Server
 cd client -> npm run dev
+
 cd server -> nodemon
 
 ## Interacting with the Application
